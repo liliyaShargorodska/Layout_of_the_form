@@ -123,6 +123,9 @@
     font-size: 10px;
     cursor: pointer;
   }
+  .but:hover {
+    background-color: blue;
+  }
   .but2{
     color: white;
     background-color: rgba(28,28,28,0.1);
@@ -131,6 +134,10 @@
     padding: 7px;
     font-size: 12px;
     cursor: pointer;
+  }
+  .but2:hover{
+    background-color: red;
+    color:black;
   }
   .field{
     background-color: #EFEFEF;
