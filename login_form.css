@@ -121,6 +121,7 @@
     border: none;
     margin:20px 0px 0px 142px;
     font-size: 10px;
+    cursor: pointer;
   }
   .but2{
     color: white;
@@ -129,6 +130,7 @@
     border-radius: 8px;
     padding: 7px;
     font-size: 12px;
+    cursor: pointer;
   }
   .field{
     background-color: #EFEFEF;
