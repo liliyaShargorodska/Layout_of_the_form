@@ -34,6 +34,27 @@
         </div>
       </div>
       </div>
+      <script>
+      let button1 = document.getElementsByClassName("but2")[0];
+      let button2 = document.getElementsByClassName("but")[0];
+      button1.addEventListener("click", function() {
+        button1.style.backgroundColor ="pink";
+        button1.style.color ="black";
+        setTimeout(function() {
+          button1.style.backgroundColor = "";
+          button1.style.color = "";
+        }, 2000);
+
+      });
+      button2.addEventListener("click",function(){
+        button2.style.backgroundColor ="yellow";
+        button2.style.color ="black";
+        setTimeout(function() {
+          button2.style.backgroundColor = "";
+          button2.style.color = "";
+        }, 2000);
+      })
+      </script>
 
   </body>
 </html>
